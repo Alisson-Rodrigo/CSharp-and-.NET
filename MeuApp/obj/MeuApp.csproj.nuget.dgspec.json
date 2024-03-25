@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {}
+    "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {
+    "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
+        "projectUniqueName": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
         "projectName": "MeuApp",
-        "projectPath": "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
+        "projectPath": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
         "packagesPath": "C:\\Users\\purolight\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\obj\\",
+        "outputPath": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\purolight\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Easy.Automation": {
+              "target": "Package",
+              "version": "[1.0.0.12, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[123.0.6312.5800, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
