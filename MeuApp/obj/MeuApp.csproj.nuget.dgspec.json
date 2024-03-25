@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {}
+    "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {
+    "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
+        "projectUniqueName": "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
         "projectName": "MeuApp",
-        "projectPath": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
+        "projectPath": "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
         "packagesPath": "C:\\Users\\purolight\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\obj\\",
+        "outputPath": "c:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\purolight\\AppData\\Roaming\\NuGet\\NuGet.Config"
