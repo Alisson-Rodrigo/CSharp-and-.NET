@@ -1,26 +1,9 @@
 ﻿using System;
 using EasyAutomationFramework;
+using java.sql;
 using OpenQA.Selenium;
 
-namespace MeuApp {
-    class Program {
-        static void Main(string[] args) {
-
-            int valor = calcularDecimal(24.6);
-            Console.WriteLine(valor);
-
-        }
-
-        static int calcularDecimal (double valor) {
-            double aux = valor - (int)valor;
-            if (aux >= 5) {
-                aux += 1;
-            }
-            else {
-                aux = valor - aux;
-            }
-
-            return (int)aux;
-        }
-    }
-}
+var drive = new Web();
+drive.StartBrowser();
+drive.Navigate("https://www.google.com");
+drive.AssignValue(TypeElement.Name, "q", "Teste").element.SendKeys(Keys.Enter);
