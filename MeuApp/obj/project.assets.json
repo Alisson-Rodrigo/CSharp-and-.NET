@@ -5783,19 +5783,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PurooLight\\.nuget\\packages\\": {}
+    "C:\\Users\\purolight\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PurooLight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
+      "projectUniqueName": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
       "projectName": "MeuApp",
-      "projectPath": "C:\\Users\\PurooLight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
-      "packagesPath": "C:\\Users\\PurooLight\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PurooLight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\obj\\",
+      "projectPath": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\MeuApp.csproj",
+      "packagesPath": "C:\\Users\\purolight\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\purolight\\Documents\\GitHub\\CSharp-and-.NET\\MeuApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PurooLight\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\purolight\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

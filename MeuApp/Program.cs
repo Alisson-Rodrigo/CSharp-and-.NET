@@ -5,14 +5,22 @@ using OpenQA.Selenium;
 namespace MeuApp {
     class Program {
         static void Main(string[] args) {
-            // Instanciando o driver
-            var driver = new Web();
 
-            driver.StartBrowser();
-            driver.Navigate("https://www.google.com");
-            driver.AssignValue(TypeElement.Name, "q", "oi").element.SendKeys(Keys.Enter);
-            driver.CloseBrowser();
+            int valor = calcularDecimal(24.6);
+            Console.WriteLine(valor);
 
+        }
+
+        static int calcularDecimal (double valor) {
+            double aux = valor - (int)valor;
+            if (aux >= 5) {
+                aux += 1;
+            }
+            else {
+                aux = valor - aux;
+            }
+
+            return (int)aux;
         }
     }
 }
